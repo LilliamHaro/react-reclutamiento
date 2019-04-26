@@ -1,0 +1,81 @@
+
+.error {
+  color: red;
+}
+.form_container_inputContainer {
+  margin-bottom: 15px;
+}
+.form_container_inputContainer label {
+  font-size: 20px;
+  color: #0e294b;
+}
+.form_container_inputContainer input,
+.form_container_inputContainer textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #19d3c5;
+  color: #0e294b;
+  font-size: 17px;
+  transition: all 0.2s;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+.form_container_inputContainer input:focus,
+.form_container_inputContainer input:hover,
+.form_container_inputContainer textarea:focus,
+.form_container_inputContainer textarea:hover {
+  box-shadow: 0 0 10px #19d3c5;
+  outline: none;
+}
+.form_container_inputContainer_maskFile {
+  border: 3px solid #19d3c5;
+  background: #19d3c5;
+  height: 200px;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s;
+}
+.form_container_inputContainer_maskFile:hover {
+  background-color: transparent;
+  transition: 0.2s;
+  border: 3px dotted #19d3c5;
+}
+
+.form_container_inputContainer_maskFile input {
+  position: absolute;
+  top: 45px;
+  left: calc(50% - 49px);
+  width: 95px;
+  height: 95px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.form_container_inputContainer_maskFile input:hover {
+  cursor: pointer;
+}
+.form_container_inputContainer_icon {
+  padding-top: 45px;
+  text-align: center;
+}
+
+.form_container_btn {
+  width: 100%;
+  background: #0e294b;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  transition: all .2s;
+  border: 2px solid #0e294b
+}
+
+.form_container_btn:hover, form_container_btn:active, .form_container_btn:focus {
+background: #fff;
+color: #0e294b;
+}
